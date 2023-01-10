@@ -48,6 +48,7 @@ export const Card = () => {
         <div className='desc-exp'>
             <textarea></textarea>
         </div>
+        <button>Enviar</button>
     </div>
   )
 }
