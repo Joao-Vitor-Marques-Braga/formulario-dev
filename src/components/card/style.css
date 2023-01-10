@@ -1,0 +1,90 @@
+.card{
+    background: #F8F1FC;
+    max-width: 55%;
+    border-radius: 30px;
+    margin: auto;
+    height: auto;
+}
+
+.titulo-infos-pessoais{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.infos-pessoais{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.infos-pessoais span{
+    margin: 4vh
+}
+
+.titulo-nivel-exp{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.nivel-exp{
+    text-align: center;
+}
+
+.nivel-exp select{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.titulo-especializacao{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.especializacao{
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+.especializacao input{
+    margin: 0.5rem;
+}
+
+.tecnologias-favorirtas{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.tecnologias{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.tecnologias input{
+    margin: 0.5rem;
+}
+
+.descricao-exp{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+.desc-exp{
+    margin: auto;
+    width: 60%;
+    min-height: 10vh;
+}
+
+@media(max-width: 600px){
+    .card{
+        max-width: 90%;
+    }
+}
